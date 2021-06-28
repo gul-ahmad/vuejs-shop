@@ -10,5 +10,8 @@ module.exports = {
   rules: {
     "no-console": process.env.NODE_ENV === "production" ? "warn" : "off",
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
+    //added by Gul to ignore eslint waring
+      "no-unused-vars": "off",
+  
   },
 };
